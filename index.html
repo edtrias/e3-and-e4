@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Exercise 3 and 4</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-box">
+        <form>
+          <label for="name">Name</label>
+          <input class="field" type="text" required id="name" placeholder="John's Store"/>
+          <label for="creationDate">Creation Date</label>
+          <input class="field" id="date" type="date" required id="creationDate"/>
+          <label for="description">Description</label>
+          <textarea class="field area" id="description" placeholder="Skateboarding Apparel..."></textarea>
+          <label for="type">Type</label>
+          <select class="field" id="type">
+            <option value="" hidden>-- Select One --</option>
+            <option class="option" value="Museum">Museum</option>
+            <option class="option" value="Square">Square</option>
+            <option class="option" value="Shopping Center">Shopping center</option>
+            <option class="option" value="Business Office">Business office</option>
+          </select>
+          <input class="btn" type="submit" value="Send"/>
+        </form>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
